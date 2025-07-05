@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +14,6 @@
   <script src="js/date.js" defer></script>
   <script src="js/course.js" defer></script>
 </head>
-
 <body>
   <header>
     <img src="images/logo.svg" alt="Site Logo" />
@@ -34,36 +32,39 @@
 
     <section>
       <h2>About Me</h2>
-      <p>Hey hey hey!</p>
+      <p>Bla bla bla</p>
     </section>
 
     <section>
       <h2>My Courses</h2>
-      <div id="course-cards"></div>
       <div id="course-filters">
         <button id="all">All Courses</button>
         <button id="wdd">WDD Courses</button>
         <button id="cse">CSE Courses</button>
       </div>
+      <div id="course-cards"></div>
       <p>Total Credits: <span id="total-credits"></span></p>
     </section>
 
     <section>
       <h2>More Info</h2>
-      <p>Bla bla bla.</p>
+      <p>Bla bla bla</p>
     </section>
   </main>
 
   <footer>
-    <p>
-      &copy; <span id="year"></span> Catalina Moreno, Argentina
-    </p>
-    <p id="lastModified"></p>
     <div class="social">
       <a href="https://github.com/morenoocatalinaa" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/catalinainesmoreno/" target="_blank">LinkedIn</a>
     </div>
+    <p>&copy; <span id="year"></span> Catalina Moreno, Argentina</p>
+    <p id="lastModified"></p>
   </footer>
-</body>
 
+  <script>
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+  </script>
+</body>
 </html>
