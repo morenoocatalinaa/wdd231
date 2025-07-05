@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Course home page for WDD231 by Catalina Moreno" />
+  <meta name="author" content="Catalina Moreno" />
+  <title>WDD 231 - Course Home Page</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/large.css" media="(min-width: 640px)" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <script src="js/navigation.js" defer></script>
+  <script src="js/date.js" defer></script>
+  <script src="js/course.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Site Logo" />
+    <span>Catalina Moreno</span>
+    <button id="menu" aria-label="Menu">&#9776;</button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Final</a>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Hey hey hey!</p>
+    </section>
+
+    <section>
+      <h2>My Courses</h2>
+      <div id="course-cards"></div>
+      <div id="course-filters">
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
+      </div>
+      <p>Total Credits: <span id="total-credits"></span></p>
+    </section>
+
+    <section>
+      <h2>More Info</h2>
+      <p>Bla bla bla.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Catalina Moreno, Argentina
+    </p>
+    <p id="lastModified"></p>
+    <div class="social">
+      <a href="https://github.com/morenoocatalinaa" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+
+</html>
