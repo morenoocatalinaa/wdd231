@@ -1,0 +1,188 @@
+:root {
+  --forest-green: #5E6C5B;
+  --fresh-cream: #F4EFE6;
+  --cloud-white: #FEFCF6;
+  --sky-blue: #D6E0E2;
+  --storm-cloud: #686867;
+  --midnight: #162A2C;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--cloud-white);
+  color: var(--midnight);
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--forest-green);
+  color: var(--cloud-white);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--cloud-white);
+  background: var(--storm-cloud);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.hero {
+  position: relative;
+  background: var(--sky-blue);
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero .cta {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  padding: 1rem 2rem;
+  background: var(--forest-green);
+  color: var(--cloud-white);
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  padding: 2rem;
+  background: var(--fresh-cream);
+}
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: var(--sky-blue);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.members-highlight {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  border: 1px solid var(--storm-cloud);
+  background: var(--cloud-white);
+  padding: 1rem;
+  flex: 1 1 300px;
+  border-radius: 8px;
+}
+
+.member-card a {
+  color: var(--midnight);
+  text-decoration: underline;
+}
+
+footer {
+  background: var(--midnight);
+  color: var(--cloud-white);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer .social img {
+  height: 24px;
+  margin: 0 0.5rem;
+  filter: brightness(0) invert(1);
+}
+.branding img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+header {
+  background-color: #596751; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #f0f0e9;
+  font-family: Arial, sans-serif;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.branding img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.branding h1 {
+  font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0f0e9;
+  background-color: #6b6f65;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a[aria-current="page"] {
+  background-color: #a9b49b;
+  color: #3a3f36;
+}
+
+#dark-mode-toggle {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #f0f0e9;
+
+}
+
+#logobellasartes {
+  width: 100px; 
+  height: auto; 
+}

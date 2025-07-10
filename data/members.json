@@ -1,0 +1,58 @@
+[
+  {
+    "name": "EcoPlus Recyclers",
+    "address": "Av. Corrientes 1234, Buenos Aires",
+    "phone": "+54 11 4567-8901",
+    "website": "https://ecoplus.com.ar",
+    "image": "ecoplus.webp",
+    "membership": 3
+  },
+  {
+    "name": "Verde Urbano",
+    "address": "Calle Defensa 432, CABA",
+    "phone": "+54 11 7890-1234",
+    "website": "https://verdeurbano.com.ar",
+    "image": "verdeurbano.webp",
+    "membership": 2
+  },
+  {
+    "name": "Recicla Más",
+    "address": "Av. Santa Fe 3456, Buenos Aires",
+    "phone": "+54 11 2345-6789",
+    "website": "https://reciclamas.com",
+    "image": "reciclamas.webp",
+    "membership": 1
+  },
+  {
+    "name": "EcoTienda BA",
+    "address": "Calle Lavalle 789, CABA",
+    "phone": "+54 11 1234-5678",
+    "website": "https://ecotienda.com.ar",
+    "image": "ecotienda.webp",
+    "membership": 2
+  },
+  {
+    "name": "Planeta Verde",
+    "address": "Av. Córdoba 987, Buenos Aires",
+    "phone": "+54 11 6789-0123",
+    "website": "https://planetaverde.com.ar",
+    "image": "planetaverde.webp",
+    "membership": 3
+  },
+  {
+    "name": "ReEco",
+    "address": "Calle Perú 321, CABA",
+    "phone": "+54 11 3456-7890",
+    "website": "https://reeco.com.ar",
+    "image": "reeco.webp",
+    "membership": 1
+  },
+  {
+    "name": "Comunidad Sustentable",
+    "address": "Av. Rivadavia 5678, Buenos Aires",
+    "phone": "+54 11 8901-2345",
+    "website": "https://comunidadsustentable.org",
+    "image": "comunidad.webp",
+    "membership": 2
+  }
+]
