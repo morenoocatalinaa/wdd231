@@ -186,3 +186,14 @@ nav ul li a[aria-current="page"] {
   width: 100px; 
   height: auto; 
 }
+
+#membersContainer.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+#membersContainer.list {
+  display: block;
+}
+

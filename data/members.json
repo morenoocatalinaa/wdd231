@@ -1,58 +1,59 @@
 [
   {
-    "name": "EcoPlus Recyclers",
-    "address": "Av. Corrientes 1234, Buenos Aires",
-    "phone": "+54 11 4567-8901",
-    "website": "https://ecoplus.com.ar",
-    "image": "ecoplus.webp",
-    "membership": 3
+    "name": "National Museum of Fine Arts",
+    "address": "Av. del Libertador 1473, CABA",
+    "phone": "+54 11 5288 9900",
+    "website": "https://www.bellasartes.gob.ar/",
+    "image": "logobellasartes.jpg",
+    "membership": "Gold"
   },
   {
-    "name": "Verde Urbano",
-    "address": "Calle Defensa 432, CABA",
-    "phone": "+54 11 7890-1234",
-    "website": "https://verdeurbano.com.ar",
-    "image": "verdeurbano.webp",
-    "membership": 2
+    "name": "Recoleta Cultural Center",
+    "address": "Junín 1930, CABA",
+    "phone": "+54 11 4803 1040",
+    "website": "https://www.centroculturalrecoleta.org/",
+    "image": "recoleta.jpg",
+    "membership": "Silver"
   },
   {
-    "name": "Recicla Más",
-    "address": "Av. Santa Fe 3456, Buenos Aires",
-    "phone": "+54 11 2345-6789",
-    "website": "https://reciclamas.com",
-    "image": "reciclamas.webp",
-    "membership": 1
+    "name": "Tech BA Solutions",
+    "address": "Av. Córdoba 1001, CABA",
+    "phone": "+54 11 4333 1111",
+    "website": "https://www.techba.com/",
+    "image": "techba.jpg",
+    "membership": "Gold"
   },
   {
-    "name": "EcoTienda BA",
-    "address": "Calle Lavalle 789, CABA",
-    "phone": "+54 11 1234-5678",
-    "website": "https://ecotienda.com.ar",
-    "image": "ecotienda.webp",
-    "membership": 2
+    "name": "Startup Hub",
+    "address": "Calle Falsa 123, CABA",
+    "phone": "+54 11 1234 5678",
+    "website": "https://www.startuphub.com/",
+    "image": "startuphub.jpg",
+    "membership": "Bronze"
   },
   {
-    "name": "Planeta Verde",
-    "address": "Av. Córdoba 987, Buenos Aires",
-    "phone": "+54 11 6789-0123",
-    "website": "https://planetaverde.com.ar",
-    "image": "planetaverde.webp",
-    "membership": 3
+    "name": "Green Energy Co.",
+    "address": "Av. Verde 500, CABA",
+    "phone": "+54 11 8765 4321",
+    "website": "https://www.greenenergy.com/",
+    "image": "greenenergy.jpg",
+    "membership": "Gold"
   },
   {
-    "name": "ReEco",
-    "address": "Calle Perú 321, CABA",
-    "phone": "+54 11 3456-7890",
-    "website": "https://reeco.com.ar",
-    "image": "reeco.webp",
-    "membership": 1
+    "name": "Creative Studios",
+    "address": "Av. Creativa 321, CABA",
+    "phone": "+54 11 5555 5555",
+    "website": "https://www.creativestudios.com/",
+    "image": "creativestudios.jpg",
+    "membership": "Silver"
   },
   {
-    "name": "Comunidad Sustentable",
-    "address": "Av. Rivadavia 5678, Buenos Aires",
-    "phone": "+54 11 8901-2345",
-    "website": "https://comunidadsustentable.org",
-    "image": "comunidad.webp",
-    "membership": 2
+    "name": "Digital Solutions",
+    "address": "Av. Digital 777, CABA",
+    "phone": "+54 11 9999 9999",
+    "website": "https://www.digitalsolutions.com/",
+    "image": "digitalsolutions.jpg",
+    "membership": "Gold"
   }
 ]
+

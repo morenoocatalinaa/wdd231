@@ -25,48 +25,53 @@
     </nav>
   </header>
 
-<section class="hero">
-  <img src="images/museobellasartes.jpg" alt="Buenos Aires" />
-  <a class="cta" href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank" rel="noopener">
-    Keynote Tickets
-  </a>
-</section>
-
+  <section class="hero">
+    <img src="images/museobellasartes.jpg" alt="Buenos Aires" />
+    <a class="cta" href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank" rel="noopener">
+      Keynote Tickets
+    </a>
+  </section>
 
   <main>
     <h2>Home</h2>
     <div class="info-section">
       <section class="card">
-       <h3>Events</h3>
-  <p><strong>Business Meetup - July 20, 2025</strong></p>
-  <p>Join local entrepreneurs for networking and knowledge sharing.</p>
-  <a href="https://www.bellasartes.gob.ar/agenda/mesa-redonda-ferrari/" target="_blank" rel="noopener">Register here</a>
+        <h3>Events</h3>
+        <p><strong>Business Meetup - July 20, 2025</strong></p>
+        <p>Join local entrepreneurs for networking and knowledge sharing.</p>
+        <a href="https://www.bellasartes.gob.ar/agenda/mesa-redonda-ferrari/" target="_blank" rel="noopener">Register here</a>
       </section>
       <section class="card weather">
- <h3>Upcoming Events</h3>
-  <p><strong>July 20:</strong> Opening of "Modern Argentinian Art"</p>
-  <p><strong>July 28:</strong> Guided Tour with curator at 5 PM</p>
-  <p><strong>August 3:</strong> Family Workshop – Free Entry</p>
+        <h3>Upcoming Events</h3>
+        <p><strong>July 20:</strong> Opening of "Modern Argentinian Art"</p>
+        <p><strong>July 28:</strong> Guided Tour with curator at 5 PM</p>
+        <p><strong>August 3:</strong> Family Workshop – Free Entry</p>
       </section>
       <section class="card forecast">
-<h3>Plan Your Visit</h3>
-  <p><strong>Hours:</strong> Tuesday – Sunday, 11 AM – 8 PM</p>
-  <p><strong>Location:</strong> Av. del Libertador 1473, CABA</p>
-  <p><strong>Tickets:</strong> <a href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank">Click here</a></p>
+        <h3>Plan Your Visit</h3>
+        <p><strong>Hours:</strong> Tuesday – Sunday, 11 AM – 8 PM</p>
+        <p><strong>Location:</strong> Av. del Libertador 1473, CABA</p>
+        <p><strong>Tickets:</strong> <a href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank">Click here</a></p>
       </section>
     </div>
 
     <section class="members-highlight">
       <div class="member-card">
-<h4>National Museum of Fine Arts</h4>
-  <p>Promoting art and culture in Buenos Aires since 1895.</p>
-<img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes" />
-  <p><strong>Email:</strong> info@mnba.gob.ar</p>
-  <p><strong>Phone:</strong> +54 11 5288 9900</p>
-  <p><strong>Website:</strong> <a href="https://www.bellasartes.gob.ar/" target="_blank" rel="noopener">bellasartes.gob.ar</a></p>
-</div>
-  
+        <h4>National Museum of Fine Arts</h4>
+        <p>Promoting art and culture in Buenos Aires since 1895.</p>
+        <img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes" />
+        <p><strong>Email:</strong> info@mnba.gob.ar</p>
+        <p><strong>Phone:</strong> +54 11 5288 9900</p>
+        <p><strong>Website:</strong> <a href="https://www.bellasartes.gob.ar/" target="_blank" rel="noopener">bellasartes.gob.ar</a></p>
+      </div>
     </section>
+
+    <section class="directory-controls">
+      <button id="gridView">Grid View</button>
+      <button id="listView">List View</button>
+    </section>
+
+    <section class="members grid" id="membersContainer"></section>
   </main>
 
   <footer>
@@ -87,5 +92,8 @@
   <script>
     document.getElementById("modified").textContent = document.lastModified;
   </script>
+
+<script src="../scripts/js/members.js" defer></script>
+
 </body>
 </html>
