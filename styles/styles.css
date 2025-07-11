@@ -8,34 +8,64 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   background: var(--cloud-white);
   color: var(--midnight);
   margin: 0;
 }
 
 header {
+  background-color: var(--forest-green);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background: var(--forest-green);
+  justify-content: space-between;
+  padding: 10px 20px;
   color: var(--cloud-white);
-  padding: 1rem;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.branding img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin-right: 15px;
+}
+
+.branding h1 {
+  font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.2;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 12px;
+  margin: 0;
   padding: 0;
 }
 
-nav a {
+nav ul li a {
   text-decoration: none;
   color: var(--cloud-white);
-  background: var(--storm-cloud);
-  padding: 0.5rem;
+  background-color: #6b6f65;
+  padding: 6px 12px;
   border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a[aria-current="page"] {
+  background-color: #a9b49b;
+  color: #3a3f36;
 }
 
 .hero {
@@ -58,6 +88,7 @@ nav a {
   color: var(--cloud-white);
   border: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 main {
@@ -97,6 +128,61 @@ main {
   text-decoration: underline;
 }
 
+#logobellasartes {
+  width: 100px;
+  height: auto;
+}
+
+.directory-controls {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.directory-controls button {
+  background-color: var(--forest-green);
+  color: var(--cloud-white);
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.directory-controls button[aria-pressed="true"] {
+  background-color: var(--storm-cloud);
+}
+
+.directory-controls button:hover {
+  background-color: var(--storm-cloud);
+}
+
+.members.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.members.list {
+  display: block;
+}
+
+.members.list .member-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--storm-cloud);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: var(--cloud-white);
+}
+
+.members.list .member-card img {
+  display: none;
+}
+
 footer {
   background: var(--midnight);
   color: var(--cloud-white);
@@ -110,90 +196,3 @@ footer .social img {
   margin: 0 0.5rem;
   filter: brightness(0) invert(1);
 }
-.branding img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 15px;
-  object-fit: cover;
-}
-
-header {
-  background-color: #596751; 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  color: #f0f0e9;
-  font-family: Arial, sans-serif;
-}
-
-.branding {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.branding img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.branding h1 {
-  font-size: 1.3rem;
-  margin: 0;
-  line-height: 1.2;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 12px;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #f0f0e9;
-  background-color: #6b6f65;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover,
-nav ul li a[aria-current="page"] {
-  background-color: #a9b49b;
-  color: #3a3f36;
-}
-
-#dark-mode-toggle {
-  margin-left: 10px;
-  background: none;
-  border: none;
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: #f0f0e9;
-
-}
-
-#logobellasartes {
-  width: 100px; 
-  height: auto; 
-}
-
-#membersContainer.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-#membersContainer.list {
-  display: block;
-}
-

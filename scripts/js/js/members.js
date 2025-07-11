@@ -1,47 +1,17 @@
-const container = document.getElementById('membersContainer');
-const gridBtn = document.getElementById('gridView');
-const listBtn = document.getElementById('listView');
+const gridButton = document.querySelector("#gridView");
+const listButton = document.querySelector("#listView");
+const membersContainer = document.querySelector("#membersContainer");
 
-let members = [];
+gridButton.addEventListener("click", () => {
+  membersContainer.classList.add("grid");
+  membersContainer.classList.remove("list");
+  gridButton.setAttribute("aria-pressed", "true");
+  listButton.setAttribute("aria-pressed", "false");
+});
 
-function renderMembers() {
-  container.innerHTML = '';
-  members.forEach(member => {
-    const memberDiv = document.createElement('div');
-    memberDiv.classList.add('member-card');
-    memberDiv.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name}" />
-      <h4>${member.name}</h4>
-      <p>${member.address}</p>
-      <p>${member.phone}</p>
-      <p><a href="${member.website}" target="_blank" rel="noopener">${member.website}</a></p>
-    `;
-    container.appendChild(memberDiv);
-  });
-}
-
-function showGrid() {
-  container.classList.remove('list');
-  container.classList.add('grid');
-}
-
-function showList() {
-  container.classList.remove('grid');
-  container.classList.add('list');
-}
-
-gridBtn.addEventListener('click', () => showGrid());
-listBtn.addEventListener('click', () => showList());
-
-async function loadMembers() {
-  try {
-    const response = await fetch('data/members.json');
-    members = await response.json();
-    renderMembers();
-    showGrid();
-  } catch (error) {
-    console.error('Error cargando miembros:', error);
-  }
-}
-
-loadMembers();
+listButton.addEventListener("click", () => {
+  membersContainer.classList.add("list");
+  membersContainer.classList.remove("grid");
+  gridButton.setAttribute("aria-pressed", "false");
+  listButton.setAttribute("aria-pressed", "true");
+});
