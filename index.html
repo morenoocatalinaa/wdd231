@@ -2,74 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Buenos Aires Chamber of Commerce Home" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Buenos Aires Chamber of Commerce - Home" />
   <meta name="author" content="Catalina Moreno" />
-  <title>Buenos Aires Chamber | Home</title>
+  <title>Buenos Aires Chamber of Commerce | Home</title>
   <link rel="stylesheet" href="styles/styles.css" />
-  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-  <header>
-    <div class="branding">
-      <img src="images/logo.jpg" alt="Buenos Aires Chamber logo" />
-      <h1>Buenos Aires Chamber of Commerce</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-        <li><a href="#">Discover</a></li>
+<header>
+  <div class="branding">
+    <img src="images/logo.jpg" alt="Chamber Logo">
+    <h1>Buenos Aires Chamber of Commerce</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="discover.html">Discover</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <img src="images/museobellasartes.jpg" alt="Buenos Aires" />
-    <a class="cta" href="join.html">Unite a la Cámara</a>
-  </section>
+<section id="hero" class="hero">
+  <h2>Welcome to the Buenos Aires Chamber of Commerce</h2>
+  <p>Connecting businesses, fostering community, and promoting growth.</p>
+  <a href="join.html" class="btn join-btn">
+    <img src="images/hug.jpg" alt="Join icon" class="btn-icon">
+    Become a Member
+  </a>
+</section>
 
-  <main>
-    <h2>Home</h2>
-    <div class="info-section">
-      <section class="card">
-        <h3>Events</h3>
-        <p><strong>Business Meetup - July 20, 2025</strong></p>
-        <p>Join local entrepreneurs for networking and knowledge sharing.</p>
-        <a href="https://www.bellasartes.gob.ar/agenda/mesa-redonda-ferrari/" target="_blank" rel="noopener">Register here</a>
-      </section>
-      <section class="card weather">
-        <h3>Upcoming Events</h3>
-        <p><strong>July 20:</strong> Opening of "Modern Argentinian Art"</p>
-        <p><strong>July 28:</strong> Guided Tour with curator at 5 PM</p>
-        <p><strong>August 3:</strong> Family Workshop – Free Entry</p>
-      </section>
-      <section class="card forecast">
-        <h3>Plan Your Visit</h3>
-        <p><strong>Hours:</strong> Tuesday – Sunday, 11 AM – 8 PM</p>
-        <p><strong>Location:</strong> Av. del Libertador 1473, CABA</p>
-        <p><strong>Tickets:</strong> <a href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank">Click here</a></p>
-      </section>
+    <section id="community-info">
+      <h2>Community News & Updates</h2>
+      <article>
+        <h3>Upcoming Business Networking Event</h3>
+        <p>Join us on August 15th for a night of networking and learning at the city hall.</p>
+      </article>
+      <article>
+        <h3>Local Business Spotlight</h3>
+        <p>Highlighting "La Casa de Empanadas" for their 10 years of service in the neighborhood.</p>
+      </article>
+    </section>
+
+<section id="weather-canuelas">
+  <h2>Clima Cañuelas</h2>
+  <div class="weather-container">
+    <div class="weather-box">
+      <h3>Current Weather</h3>
+      <div id="current-weather"></div>
     </div>
+    <div class="weather-box">
+      <h3>Weather Forecast</h3>
+      <div id="forecast"></div>
+    </div>
+  </div>
+</section>
 
-    <section class="members-highlight">
-      <div class="member-card">
-        <h4>National Museum of Fine Arts</h4>
-        <p>Promoting art and culture in Buenos Aires since 1895.</p>
-        <img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes" />
-        <p><strong>Email:</strong> info@mnba.gob.ar</p>
-        <p><strong>Phone:</strong> +54 11 5288 9900</p>
-        <p><strong>Website:</strong> <a href="https://www.bellasartes.gob.ar/" target="_blank" rel="noopener">bellasartes.gob.ar</a></p>
+ 
+
+
       </div>
-    </section>
-
-    <section class="directory-controls" aria-label="Display options">
-      <button id="gridView" aria-pressed="true">Grid View</button>
-      <button id="listView" aria-pressed="false">List View</button>
-    </section>
-
-    <section class="members grid" id="membersContainer" role="list">
     </section>
   </main>
 
@@ -91,7 +84,7 @@
   <script>
     document.getElementById("modified").textContent = document.lastModified;
   </script>
-
-  <script src="scripts/js/members.js" defer></script>
+    <script src="scripts/main.js" ></script>
 </body>
 </html>
+
