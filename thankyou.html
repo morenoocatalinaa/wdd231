@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thank You</title>
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+<body>
+  <header>
+    <h1>Recycle at Home</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Back to Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Thank You for Joining!</h2>
+    <p>We’ve received your information and appreciate your interest in promoting recycling habits at home.</p>
+    <p><strong>Here’s what you submitted:</strong></p>
+<ul>
+  <li><strong>First Name:</strong> <span id="firstName">[first name]</span></li>
+  <li><strong>Last Name:</strong> <span id="lastName">[last name]</span></li>
+  <li><strong>Email:</strong> <span id="email">[email]</span></li>
+  <li><strong>Phone:</strong> <span id="phone">[mobile number]</span></li>
+  <li><strong>Organization:</strong> <span id="organization">[business name]</span></li>
+  <li><strong>Date Submitted:</strong> <span id="timestamp">[timestamp]</span></li>
+</ul>
+
+  </main>
+
+  <footer>
+    <div class="contact">
+      <p>Buenos Aires Chamber of Commerce</p>
+      <p>Av. Del Libertador 1473 - CABA</p>
+      <p>info@camaraba.com | +54 (011) 5288-9900</p>
+    </div>
+    <div class="social">
+      <a href="https://github.com/morenoocatalinaa"><img src="images/github.png" alt="Github" /></a>
+      <a href="https://www.instagram.com/cata_moreno1/"><img src="images/insta.png" alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/in/catalinainesmoreno/"><img src="images/linkedin.png" alt="Linkedin" /></a>
+    </div>
+    <p>WDD231 Class Project</p>
+    <p>Catalina Moreno | Last Modified: <span id="modified"></span></p>
+  </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+
+    document.getElementById("firstName").textContent = params.get("firstName") || "N/A";
+    document.getElementById("lastName").textContent = params.get("lastName") || "N/A";
+    document.getElementById("email").textContent = params.get("email") || "N/A";
+    document.getElementById("phone").textContent = params.get("phone") || "N/A";
+    document.getElementById("organization").textContent = params.get("organization") || "N/A";
+    document.getElementById("timestamp").textContent = params.get("timestamp") || "N/A";
+  });
+</script>
+
+</body>
+</html>
