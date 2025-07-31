@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site Plan – Reciclá Argentina</title>
+  <style>
+    :root {
+      --forest-green: #5E6C5B;
+      --fresh-cream: #F4EFE6;
+      --cloud-white: #FEFCF6;
+      --sky-blue: #D6E0E2;
+      --storm-cloud: #686867;
+      --midnight: #162A2C;
+    }
+
+    body {
+      background-color: var(--cloud-white);
+      color: var(--midnight);
+      font-family: 'Open Sans', sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: var(--forest-green);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 1rem 1.5rem;
+      background-color: var(--fresh-cream);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .color-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .color-swatch {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .forest-green { background-color: var(--forest-green); }
+    .fresh-cream { background-color: var(--fresh-cream); }
+    .cloud-white { background-color: var(--cloud-white); }
+    .sky-blue { background-color: var(--sky-blue); }
+    .storm-cloud { background-color: var(--storm-cloud); }
+    .midnight { background-color: var(--midnight); }
+
+    .wireframe {
+      border: 2px dashed var(--storm-cloud);
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--storm-cloud);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Site Plan – Reciclá Argentina</h1>
+
+  <section id="site-name">
+    <h2>Site Name</h2>
+    <p><strong>Reciclá Argentina</strong></p>
+    <p>This name was chosen because it clearly and directly communicates the purpose of the site: to educate, connect, and promote recycling throughout Argentina.</p>
+  </section>
+
+  <section id="site-purpose">
+    <h2>Site Purpose</h2>
+    <p>This website will serve as an educational and informative resource for people in Argentina interested in recycling and sustainability. It will include practical guides, recycling locations, and environmental news.</p>
+  </section>
+
+  <section id="scenarios">
+    <h2>Scenarios</h2>
+    <ul>
+      <li>Where can I recycle batteries or electronics in my neighborhood?</li>
+      <li>What type of waste is accepted at the nearest green collection point?</li>
+    </ul>
+  </section>
+
+  <section id="color-schema">
+    <h2>Color Schema</h2>
+    <div class="color-item">
+      <div class="color-swatch forest-green"></div>
+      <p><strong>Forest Green (#5E6C5B):</strong> Headings and highlight elements</p>
+    </div>
+    <div class="color-item">
+      <div class="color-swatch fresh-cream"></div>
+      <p><strong>Fresh Cream (#F4EFE6):</strong> Section backgrounds</p>
+    </div>
+    <div class="color-item">
+      <div class="color-swatch cloud-white"></div>
+      <p><strong>Cloud White (#FEFCF6):</strong> General page background</p>
+    </div>
+    <div class="color-item">
+      <div class="color-swatch sky-blue"></div>
+      <p><strong>Sky Blue (#D6E0E2):</strong> Decorative elements</p>
+    </div>
+    <div class="color-item">
+      <div class="color-swatch storm-cloud"></div>
+      <p><strong>Storm Cloud (#686867):</strong> Secondary text, outlines</p>
+    </div>
+    <div class="color-item">
+      <div class="color-swatch midnight"></div>
+      <p><strong>Midnight (#162A2C):</strong> Main body text</p>
+    </div>
+  </section>
+
+  <section id="typography">
+    <h2>Typography</h2>
+    <ul>
+      <li><strong>Montserrat:</strong> Used for all site headings and titles.</li>
+      <li><strong>Open Sans:</strong> Used for body text and general content.</li>
+    </ul>
+  </section>
+
+<section id="wireframe">
+  <h2>Wireframes</h2>
+  <h3>Mobile View</h3>
+  <img src="images/CELLPHONE.png" alt="Mobile layout sketch" style="max-width: 30%; height: auto; border: 2px dashed var(--storm-cloud); border-radius: 8px; margin-top: 0.5rem;" />
+  <h3>Desktop View</h3>
+  <img src="images/WEBSITE.png" alt="Desktop layout sketch" style="max-width: 30%; height: auto; border: 2px dashed var(--storm-cloud); border-radius: 8px; margin-top: 0.5rem;" />
+</section>
+
+  <section id="testing">
+    <h2>Testing</h2>
+    <ul>
+      <li>HTML and CSS validation using standard tools.</li>
+      <li>Color contrast and accessibility testing.</li>
+      <li>Performance and load time review.</li>
+      <li>Responsive layout testing across screen sizes.</li>
+      <li>Basic SEO best practices: titles, meta tags, clean structure.</li>
+    </ul>
+  </section>
+</body>
+</html>
+
