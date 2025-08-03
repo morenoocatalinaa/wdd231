@@ -1,0 +1,19 @@
+{
+  "places": [
+    {
+      "title": "Puerto Madero",
+      "image": "puertomadero.jpg",
+      "description": "Un moderno barrio frente al río con restaurantes y oficinas."
+    },
+    {
+      "title": "La Boca",
+      "image": "laboca.jpg",
+      "description": "Barrio colorido famoso por Caminito y el estadio de Boca Juniors."
+    },
+    {
+      "title": "Palermo",
+      "image": "palermo.jpg",
+      "description": "Zona verde con parques, arte urbano y vida nocturna."
+    }
+  ]
+}

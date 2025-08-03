@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #005A5A;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.visit-message {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Hover solo en pantallas grandes */
+@media (min-width: 641px) {
+  .card img:hover {
+    filter: brightness(0.85);
+    transform: scale(1.02);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+}
+
+/* Grid responsive */
+@media (max-width: 640px) {
+  .discover-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
