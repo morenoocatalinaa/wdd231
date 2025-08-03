@@ -12,7 +12,7 @@ function displayVisitMessage() {
       ? "Bienvenido nuevamente. ¡Nos alegra verte otra vez hoy!"
       : `Tu última visita fue hace ${daysBetween} día(s). ¡Bienvenido de nuevo!`;
   } else {
-    messageContainer.textContent = "¡Bienvenido! Esta es tu primera visita.";
+    messageContainer.textContent = "Welcome! This is your first visit.";
   }
 
   localStorage.setItem("lastVisit", new Date());

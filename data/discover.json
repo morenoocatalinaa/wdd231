@@ -3,17 +3,17 @@
     {
       "title": "Puerto Madero",
       "image": "puertomadero.jpg",
-      "description": "Un moderno barrio frente al río con restaurantes y oficinas."
+      "description": "A modern neighborhood by the river with restaurants and offices."
     },
     {
       "title": "La Boca",
       "image": "laboca.jpg",
-      "description": "Barrio colorido famoso por Caminito y el estadio de Boca Juniors."
+      "description": "A colorful neighborhood famous for Caminito and the Boca Juniors stadium."
     },
     {
       "title": "Palermo",
       "image": "palermo.jpg",
-      "description": "Zona verde con parques, arte urbano y vida nocturna."
+      "description": "Green area with parks, urban art, and nightlife."
     }
   ]
 }
