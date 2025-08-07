@@ -376,3 +376,17 @@ footer .social img {
   max-width: 100%;
   border-radius: 5px;
 }
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.active {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .nav-menu {
+    display: flex !important;
+  }
+}
