@@ -11,39 +11,41 @@
 <body>
 <header>
   <div class="branding">
-    <img src="images/logo.jpg" alt="Chamber Logo">
+    <img src="images/logo.jpg" alt="Buenos Aires Chamber of Commerce logo" width="80" height="80">
     <h1>Buenos Aires Chamber of Commerce</h1>
   </div>
-  <nav>
+  <button id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+  <nav id="main-nav" class="nav-menu">
     <ul>
       <li><a href="index.html" class="active" aria-current="page">Home</a></li>
       <li><a href="directory.html">Directory</a></li>
       <li><a href="join.html">Join</a></li>
       <li><a href="discover.html">Discover</a></li>
-      </ul>
-    </nav>
-  </header>
+    </ul>
+  </nav>
+</header>
 
+<main>
 <section id="hero" class="hero">
   <h2>Welcome to the Buenos Aires Chamber of Commerce</h2>
   <p>Connecting businesses, fostering community, and promoting growth.</p>
   <a href="join.html" class="btn join-btn">
-    <img src="images/hug.jpg" alt="Join icon" class="btn-icon">
+    <img src="images/hug.jpg" alt="Join icon" class="btn-icon" width="24" height="24">
     Become a Member
   </a>
 </section>
 
-    <section id="community-info">
-      <h2>Community News & Updates</h2>
-      <article>
-        <h3>Upcoming Business Networking Event</h3>
-        <p>Join us on August 15th for a night of networking and learning at the city hall.</p>
-      </article>
-      <article>
-        <h3>Local Business Spotlight</h3>
-        <p>Highlighting "La Casa de Empanadas" for their 10 years of service in the neighborhood.</p>
-      </article>
-    </section>
+<section id="community-info">
+  <h2>Community News & Updates</h2>
+  <article>
+    <h3>Upcoming Business Networking Event</h3>
+    <p>Join us on August 15th for a night of networking and learning at the city hall.</p>
+  </article>
+  <article>
+    <h3>Local Business Spotlight</h3>
+    <p>Highlighting "La Casa de Empanadas" for their 10 years of service in the neighborhood.</p>
+  </article>
+</section>
 
 <section id="weather-canuelas">
   <h2>Clima Cañuelas</h2>
@@ -58,33 +60,35 @@
     </div>
   </div>
 </section>
+</main>
 
- 
+<footer>
+  <div class="contact">
+    <p>Buenos Aires Chamber of Commerce</p>
+    <p>Av. Del Libertador 1473 - CABA</p>
+    <p>Email: <a href="mailto:info@camaraba.com">catalinesmoreno@gmail.com</a> | Tel: +54 (011) 5288-9900</p>
+  </div>
+  <div class="social">
+    <a href="https://github.com/morenoocatalinaa" target="_blank" rel="noopener">
+      <img src="images/github.png" alt="GitHub profile" width="24" height="24" />
+    </a>
+    <a href="https://www.instagram.com/cata_moreno1/" target="_blank" rel="noopener">
+      <img src="images/insta.png" alt="Instagram profile" width="24" height="24" />
+    </a>
+    <a href="https://www.linkedin.com/in/catalinainesmoreno/" target="_blank" rel="noopener">
+      <img src="images/linkedin.png" alt="LinkedIn profile" width="24" height="24" />
+    </a>
+  </div>
+  <p>&copy; <span id="year"></span> Buenos Aires Chamber of Commerce | WDD231 Class Project</p>
+  <p>Catalina Moreno | Last Modified: <span id="modified"></span></p>
+</footer>
 
-
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="contact">
-      <p>Buenos Aires Chamber of Commerce</p>
-      <p>Av. Del Libertador 1473 - CABA</p>
-      <p>info@camaraba.com | +54 (011) 5288-9900</p>
-    </div>
-    <div class="social">
-      <a href="https://github.com/morenoocatalinaa"><img src="images/github.png" alt="Github" /></a>
-      <a href="https://www.instagram.com/cata_moreno1/"><img src="images/insta.png" alt="Instagram" /></a>
-      <a href="https://www.linkedin.com/in/catalinainesmoreno/"><img src="images/linkedin.png" alt="Linkedin" /></a>
-    </div>
-    <p>WDD231 Class Project</p>
-    <p>Catalina Moreno | Last Modified: <span id="modified"></span></p>
-  </footer>
-
-  <script>
-    document.getElementById("modified").textContent = document.lastModified;
-  </script>
-    <script src="scripts/main.js" ></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("modified").textContent = document.lastModified;
+</script>
+<script src="scripts/main.js"></script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>
 
