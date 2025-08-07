@@ -390,3 +390,21 @@ footer .social img {
     display: flex !important;
   }
 }
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  #main-nav.active {
+    display: block;
+  }
+}
