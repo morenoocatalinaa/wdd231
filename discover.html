@@ -1,76 +1,37 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Buenos Aires Chamber of Commerce Home">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Buenos Aires Chamber of Commerce - Discover Page">
   <meta name="author" content="Catalina Moreno">
-  <title>Buenos Aires Chamber | Home</title>
+  <title>Buenos Aires Chamber of Commerce | Discover</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" href="favicon.ico">
 </head>
 <body>
   <header>
     <div class="branding">
-      <img src="images/logo.jpg" alt="Buenos Aires Chamber logo">
+      <img src="images/logo.jpg" alt="Chamber Logo">
       <h1>Buenos Aires Chamber of Commerce</h1>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="discover.html">Discover</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="hero">
-    <img src="images/museobellasartes.jpg" alt="Buenos Aires">
-    <a class="cta" href="join.html">Join us</a>
-  </div>
+<main>
+  <aside id="visit-message"></aside>
+  <section class="discover-grid">
+    <h2>Discover Our Places</h2>
+    <!-- it is not showing :(-->
+  </section>
+</main>
 
-  <main>
-    <h2>Home</h2>
-    <div class="info-section">
-      <section class="card">
-        <h3>Events</h3>
-        <p><strong>Business Meetup - July 20, 2025</strong></p>
-        <p>Join local entrepreneurs for networking and knowledge sharing.</p>
-        <a href="https://www.bellasartes.gob.ar/agenda/mesa-redonda-ferrari/" target="_blank" rel="noopener">Register here</a>
-      </section>
-      <section class="card weather">
-        <h3>Upcoming Events</h3>
-        <p><strong>July 20:</strong> Opening of "Modern Argentinian Art"</p>
-        <p><strong>July 28:</strong> Guided Tour with curator at 5 PM</p>
-        <p><strong>August 3:</strong> Family Workshop – Free Entry</p>
-      </section>
-      <section class="card forecast">
-        <h3>Plan Your Visit</h3>
-        <p><strong>Hours:</strong> Tuesday – Sunday, 11 AM – 8 PM</p>
-        <p><strong>Location:</strong> Av. del Libertador 1473, CABA</p>
-        <p><strong>Tickets:</strong> <a href="https://www.bellasartes.gob.ar/paginas/planea-tu-visita/" target="_blank">Click here</a></p>
-      </section>
-    </div>
-
-    <section class="members-highlight">
-      <div class="member-card">
-        <h4>National Museum of Fine Arts</h4>
-        <p>Promoting art and culture in Buenos Aires since 1895.</p>
-        <img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes">
-        <p><strong>Email:</strong> info@mnba.gob.ar</p>
-        <p><strong>Phone:</strong> +54 11 5288 9900</p>
-        <p><strong>Website:</strong> <a href="https://www.bellasartes.gob.ar/" target="_blank" rel="noopener">bellasartes.gob.ar</a></p>
-      </div>
-    </section>
-
-    <div class="directory-controls">
-      <button id="gridView" aria-pressed="true">Grid View</button>
-      <button id="listView" aria-pressed="false">List View</button>
-    </div>
-
-    <ul class="members grid" id="membersContainer"></ul>
-  </main>
 
   <footer>
     <div class="contact">
@@ -87,9 +48,7 @@
     <p>Catalina Moreno | Last Modified: <span id="modified"></span></p>
   </footer>
 
-  <script>
-    document.getElementById("modified").textContent = document.lastModified;
-  </script>
-  <script src="scripts/members.js" defer></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/discover.js"></script>
 </body>
 </html>
