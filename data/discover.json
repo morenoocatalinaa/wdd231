@@ -14,6 +14,31 @@
       "title": "Palermo",
       "image": "palermo.jpg",
       "description": "A green area with parks, urban art, and nightlife."
+    },
+    {
+      "title": "Recoleta",
+      "image": "recoleta.jpg",
+      "description": "An elegant neighborhood with French architecture and a famous cemetery."
+    },
+    {
+      "title": "San Telmo",
+      "image": "santelmo.jpg",
+      "description": "Known for its colonial buildings, antiques, and tango culture."
+    },
+    {
+      "title": "Puerto Norte",
+      "image": "puertonorte.jpg",
+      "description": "A vibrant riverside area with modern developments."
+    },
+    {
+      "title": "Belgrano",
+      "image": "belgrano.jpg",
+      "description": "A residential neighborhood with parks and shopping areas."
+    },
+    {
+      "title": "Villa Crespo",
+      "image": "villacrespo.jpg",
+      "description": "A trendy neighborhood with street art and cafes."
     }
   ]
 }
