@@ -9,10 +9,10 @@ function displayVisitMessage() {
     const daysBetween = Math.floor(difference / (1000 * 60 * 60 * 24));
 
     messageContainer.textContent = daysBetween === 0
-      ? "Bienvenido nuevamente. ¡Nos alegra verte otra vez hoy!"
+      ? "Welcome back! We're glad to see you again today!"
       : `Tu última visita fue hace ${daysBetween} día(s). ¡Bienvenido de nuevo!`;
   } else {
-    messageContainer.textContent = "¡Bienvenido! Esta es tu primera visita.";
+    messageContainer.textContent = "Welcome back! We're glad to see you again today!";
   }
 
   localStorage.setItem("lastVisit", new Date());
