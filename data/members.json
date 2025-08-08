@@ -9,42 +9,53 @@
   },
   {
     "name": "Buenos Aires Tech Hub",
-    "address": "Calle Falsa 123, CABA",
+    "address": "Distrito Tecnológico, Parque Patricios, CABA",
     "phone": "+54 11 5555 1234",
-    "website": "https://batechhub.com",
-    "image": "batechhub.jpg",
-    "membershipLevel": "Silver"
+    "website": "https://buenosaires.gob.ar/noticias/el-distrito-tecnologico-un-hub-de-innovacion-en-america-latina",
+    "image": "BA.jpeg",
+    "membershipLevel": "Silver",
+    "about": "Centro de emprendimiento tecnológico dentro del Distrito Tecnológico en Parque Patricios.",
+    "landscape": "Buenos Aires concentra más del 50 % de las startups tech del país, con más de 3,000 emprendimientos activos."
   },
   {
     "name": "Eco Solutions",
     "address": "Av. Verde 456, CABA",
     "phone": "+54 11 6677 8899",
-    "website": "https://ecosolutions.com",
-    "image": "ecosolutions.jpg",
-    "membershipLevel": "Bronze"
+    "website": "https://eco-solutions.com.ar",
+    "image": "eco.jpeg",
+    "membershipLevel": "Bronze",
+    "about": "Empresa de ingeniería minero-ambiental y civil liderada por Paola Vílchez y Cristian Videla, especializadas en estudios de impacto ambiental, mantenimiento industrial y obras civiles.",
+    "services": [
+      "Estudio de impacto ambiental",
+      "Mantenimiento de obra civil",
+      "Soluciones técnicas verticales certificadas",
+      "Construcción y montaje industrial"
+    ]
   },
   {
     "name": "Gourmet Delights",
     "address": "Paseo Gourmet 789, CABA",
     "phone": "+54 11 4444 3333",
-    "website": "https://gourmetdelights.com",
-    "image": "gourmetdelights.jpg",
-    "membershipLevel": "Gold"
+    "website": "https://gourmet-delights.com",
+    "image": "deli.jpeg",
+    "membershipLevel": "Gold",
+    "about": "Servicio de entrega de productos gourmet directamente desde nuestra cocina a tu hogar: alimentos sofisticados, de alta calidad y sin complicaciones.",
+    "offer": "Delivery de productos gourmet a buen precio"
   },
   {
     "name": "Fitness Center BA",
     "address": "Av. Salud 321, CABA",
     "phone": "+54 11 2222 5555",
-    "website": "https://fitnessba.com",
-    "image": "fitnessba.jpg",
+    "website": "https://fitnesscenter.com.ar/",
+    "image": "fit.jpeg",
     "membershipLevel": "Silver"
   },
   {
-    "name": "Creative Studio",
+    "name": "Creative Studio Green Flame",
     "address": "Calle Arte 654, CABA",
     "phone": "+54 11 8888 7777",
-    "website": "https://creativestudio.com",
-    "image": "creativestudio.jpg",
+    "website": "https://greenflame.com.ar/web/",
+    "image": "greenflame.jpg",
     "membershipLevel": "Bronze"
   },
   {
@@ -52,7 +63,7 @@
     "address": "Av. Turismo 987, CABA",
     "phone": "+54 11 9999 0000",
     "website": "https://travelba.com",
-    "image": "travelba.jpg",
+    "image": "huge.jpg",
     "membershipLevel": "Gold"
   }
 ]
