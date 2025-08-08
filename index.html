@@ -52,19 +52,20 @@
   </article>
 </section>
 
-<section id="weather-canuelas">
-  <h2>Weather in Cañuelas</h2>
+<section id="weather-canuelas" aria-labelledby="weather-title">
+  <h2 id="weather-title">Weather in Cañuelas</h2>
   <div class="weather-container">
-    <div class="weather-box">
+    <div class="weather-box" aria-live="polite">
       <h3>Current Weather</h3>
       <div id="current-weather"></div>
     </div>
-    <div class="weather-box">
+    <div class="weather-box" aria-live="polite">
       <h3>Weather Forecast</h3>
       <div id="forecast"></div>
     </div>
   </div>
 </section>
+
 </main>
 
 <footer>

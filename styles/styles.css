@@ -327,7 +327,7 @@ button:focus {
 .join-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px; 
+  gap: 8px; /* espacio entre icono y texto */
   padding: 8px 12px;
 }
 
@@ -353,4 +353,28 @@ button:focus {
 
 .weather-container p {
   margin: 0;
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.weather-box {
+  background: var(--cloud-white);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  flex: 1 1 280px;
+  max-width: 350px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.weather-box h3 {
+  color: var(--forest-green);
+  margin-bottom: 0.75rem;
 }
