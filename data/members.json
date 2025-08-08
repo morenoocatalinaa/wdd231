@@ -5,55 +5,54 @@
     "phone": "+54 11 5288 9900",
     "website": "https://www.bellasartes.gob.ar/",
     "image": "logobellasartes.jpg",
-    "membership": "Gold"
+    "membershipLevel": "Gold"
   },
   {
-    "name": "Recoleta Cultural Center",
-    "address": "Junín 1930, CABA",
-    "phone": "+54 11 4803 1040",
-    "website": "https://www.centroculturalrecoleta.org/",
-    "image": "recoleta.jpg",
-    "membership": "Silver"
-  },
-  {
-    "name": "Tech BA Solutions",
-    "address": "Av. Córdoba 1001, CABA",
-    "phone": "+54 11 4333 1111",
-    "website": "https://www.techba.com/",
-    "image": "techba.jpg",
-    "membership": "Gold"
-  },
-  {
-    "name": "Startup Hub",
+    "name": "Buenos Aires Tech Hub",
     "address": "Calle Falsa 123, CABA",
-    "phone": "+54 11 1234 5678",
-    "website": "https://www.startuphub.com/",
-    "image": "startuphub.jpg",
-    "membership": "Bronze"
+    "phone": "+54 11 5555 1234",
+    "website": "https://batechhub.com",
+    "image": "batechhub.jpg",
+    "membershipLevel": "Silver"
   },
   {
-    "name": "Green Energy Co.",
-    "address": "Av. Verde 500, CABA",
-    "phone": "+54 11 8765 4321",
-    "website": "https://www.greenenergy.com/",
-    "image": "greenenergy.jpg",
-    "membership": "Gold"
+    "name": "Eco Solutions",
+    "address": "Av. Verde 456, CABA",
+    "phone": "+54 11 6677 8899",
+    "website": "https://ecosolutions.com",
+    "image": "ecosolutions.jpg",
+    "membershipLevel": "Bronze"
   },
   {
-    "name": "Creative Studios",
-    "address": "Av. Creativa 321, CABA",
-    "phone": "+54 11 5555 5555",
-    "website": "https://www.creativestudios.com/",
-    "image": "creativestudios.jpg",
-    "membership": "Silver"
+    "name": "Gourmet Delights",
+    "address": "Paseo Gourmet 789, CABA",
+    "phone": "+54 11 4444 3333",
+    "website": "https://gourmetdelights.com",
+    "image": "gourmetdelights.jpg",
+    "membershipLevel": "Gold"
   },
   {
-    "name": "Digital Solutions",
-    "address": "Av. Digital 777, CABA",
-    "phone": "+54 11 9999 9999",
-    "website": "https://www.digitalsolutions.com/",
-    "image": "digitalsolutions.jpg",
-    "membership": "Gold"
+    "name": "Fitness Center BA",
+    "address": "Av. Salud 321, CABA",
+    "phone": "+54 11 2222 5555",
+    "website": "https://fitnessba.com",
+    "image": "fitnessba.jpg",
+    "membershipLevel": "Silver"
+  },
+  {
+    "name": "Creative Studio",
+    "address": "Calle Arte 654, CABA",
+    "phone": "+54 11 8888 7777",
+    "website": "https://creativestudio.com",
+    "image": "creativestudio.jpg",
+    "membershipLevel": "Bronze"
+  },
+  {
+    "name": "Travel Buenos Aires",
+    "address": "Av. Turismo 987, CABA",
+    "phone": "+54 11 9999 0000",
+    "website": "https://travelba.com",
+    "image": "travelba.jpg",
+    "membershipLevel": "Gold"
   }
 ]
-
