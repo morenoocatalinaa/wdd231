@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Buenos Aires Chamber of Commerce Home" />
-  <meta name="author" content="Catalina Moreno" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Buenos Aires Chamber of Commerce Home">
+  <meta name="author" content="Catalina Moreno">
   <title>Buenos Aires Chamber | Home</title>
-  <link rel="stylesheet" href="styles/styles.css" />
-  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
   <header>
     <div class="branding">
-      <img src="images/logo.jpg" alt="Buenos Aires Chamber logo" />
+      <img src="images/logo.jpg" alt="Buenos Aires Chamber logo">
       <h1>Buenos Aires Chamber of Commerce</h1>
     </div>
-    
     <nav>
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
@@ -26,10 +25,10 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <img src="images/museobellasartes.jpg" alt="Buenos Aires" />
+  <div class="hero">
+    <img src="images/museobellasartes.jpg" alt="Buenos Aires">
     <a class="cta" href="join.html">Join us</a>
-  </section>
+  </div>
 
   <main>
     <h2>Home</h2>
@@ -58,20 +57,19 @@
       <div class="member-card">
         <h4>National Museum of Fine Arts</h4>
         <p>Promoting art and culture in Buenos Aires since 1895.</p>
-        <img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes" />
+        <img id="logobellasartes" src="images/logobellasartes.jpg" alt="Logo Bellas Artes">
         <p><strong>Email:</strong> info@mnba.gob.ar</p>
         <p><strong>Phone:</strong> +54 11 5288 9900</p>
         <p><strong>Website:</strong> <a href="https://www.bellasartes.gob.ar/" target="_blank" rel="noopener">bellasartes.gob.ar</a></p>
       </div>
     </section>
 
-    <section class="directory-controls" aria-label="Display options">
+    <div class="directory-controls" aria-label="Display options">
       <button id="gridView" aria-pressed="true">Grid View</button>
       <button id="listView" aria-pressed="false">List View</button>
-    </section>
+    </div>
 
-    <section class="members grid" id="membersContainer" role="list">
-    </section>
+    <ul class="members grid" id="membersContainer"></ul>
   </main>
 
   <footer>
@@ -81,9 +79,9 @@
       <p>info@camaraba.com | +54 (011) 5288-9900</p>
     </div>
     <div class="social">
-      <a href="https://github.com/morenoocatalinaa"><img src="images/github.png" alt="Github" /></a>
-      <a href="https://www.instagram.com/cata_moreno1/"><img src="images/insta.png" alt="Instagram" /></a>
-      <a href="https://www.linkedin.com/in/catalinainesmoreno/"><img src="images/linkedin.png" alt="Linkedin" /></a>
+      <a href="https://github.com/morenoocatalinaa"><img src="images/github.png" alt="Github"></a>
+      <a href="https://www.instagram.com/cata_moreno1/"><img src="images/insta.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/catalinainesmoreno/"><img src="images/linkedin.png" alt="Linkedin"></a>
     </div>
     <p>WDD231 Class Project</p>
     <p>Catalina Moreno | Last Modified: <span id="modified"></span></p>
@@ -92,7 +90,6 @@
   <script>
     document.getElementById("modified").textContent = document.lastModified;
   </script>
-
   <script src="scripts/members.js" defer></script>
 </body>
 </html>
