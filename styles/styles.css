@@ -324,3 +324,33 @@ button:focus {
   display: block;
   margin: 10px auto;
 }
+.join-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; 
+  padding: 8px 12px;
+}
+
+.join-btn img {
+  flex-shrink: 0;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+}
+
+.weather-container h2, 
+.weather-container h3 {
+  margin-bottom: 5px;
+}
+
+.weather-container p {
+  margin: 0;
+}
