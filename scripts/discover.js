@@ -21,9 +21,13 @@ function displayVisitMessage() {
 document.addEventListener("DOMContentLoaded", () => {
   displayVisitMessage();
 
-fetch("data/discover.json")
-    .then((response) => response.json())
+  fetch("data/discover.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
     .then((data) => {
+      console.log("JSON data loaded:", data);
       const grid = document.getElementById("discover-grid");
       const places = data.places;
 
